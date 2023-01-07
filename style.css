@@ -1,0 +1,72 @@
+.link {
+  color: blue;
+}
+.link:hover {
+  color: black;
+}
+h1,
+h2,
+h3 {
+  text-decoration: underline;
+  line-height: 69px;
+  text-align: center;
+}
+li {
+  list-style-type: none;
+}
+.special
+{
+  color: darkorange;
+}
+body
+{
+    margin: 0; padding: 0;
+}
+.wtf
+{
+    display: grid;
+    grid-template-columns: repeat(2, 228px);
+}
+.govno
+{
+    background: unset;
+    border: none;
+
+}
+.govno:hover
+{
+    background: unset;
+    border: 2px solid green;
+
+}
+.pic
+{
+    width: 228px;
+    height: 322px;
+    float: right ;
+}
+.raven
+{
+    width: 700px;
+}
+.jjjj
+{
+    display: block;
+}
+.cum
+{
+    display: inline;
+}
+.menu 
+{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    border: 1px solid black;
+    width: min-content;
+    padding: 11px;
+}
+.parasha:hover
+{
+    color: darkcyan;
+}
