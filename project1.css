@@ -1,0 +1,25 @@
+.title
+{
+    position: relative;
+    left: 20%;
+}
+.myphoto
+{
+    position: absolute;
+    width: 16%;
+    left: 20%;
+}
+.header
+{
+    left: 47%;
+    position: absolute;
+    display: inline-block;
+}
+.text1
+{
+    width: 27%;
+    text-align: justify;
+    position: absolute;
+    left: 38%;
+    top: 11%;
+}
