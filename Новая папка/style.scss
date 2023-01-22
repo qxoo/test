@@ -1,0 +1,43 @@
+//xD
+$clr: black;
+%bbc {
+  border: 3px solid $clr;
+  border-radius: 50%;
+}
+@mixin justso($bc, $tc)
+{
+	background-color: $bc;
+	font: cursive;
+	color: $tc;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+.example {
+	display: inline-block;
+	position: absolute;
+	top: 10%;
+	left: 43%;
+	width: 300px / 1920px * 100%;
+  &__header {
+    font-size: 80px;
+    border-bottom: 1px solid #000;
+    background-color: lightgray;
+  }
+  &__title {
+    font-style: italic;
+  }
+  &__description {
+    color: darkblue;
+  }
+  &__text
+  {
+	width: max-content;
+	padding: 10px;
+	@extend %bbc;
+	@include justso(lightgreen, darkgreen);
+	position: inherit;
+	left: 12%;
+  }
+}

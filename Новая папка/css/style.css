@@ -1,0 +1,39 @@
+.example__text {
+  border: 3px solid black;
+  border-radius: 50%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.example {
+  display: inline-block;
+  position: absolute;
+  top: 10%;
+  left: 43%;
+  width: 15.625%;
+}
+.example__header {
+  font-size: 80px;
+  border-bottom: 1px solid #000;
+  background-color: lightgray;
+}
+.example__title {
+  font-style: italic;
+}
+.example__description {
+  color: darkblue;
+}
+.example__text {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 10px;
+  background-color: lightgreen;
+  font: cursive;
+  color: darkgreen;
+  position: inherit;
+  left: 12%;
+}

@@ -3,22 +3,22 @@ body {
 }
 hr {
   height: 0px;
-  width: 85%;
+  width: 1450px;
   border: 2px solid lightgray;
 }
 .title {
   position: relative;
-  left: 21%;
+  left: 400px;
   color: black;
   text-decoration: none;
 }
 .myphoto {
   position: absolute;
-  width: 16%;
-  left: 21%;
+  width: 310px;
+  left: 400px;
 }
 .header {
-  left: 47%;
+  left: 890px;
   position: absolute;
   display: inline-block;
   font-size: 30px;
@@ -28,34 +28,34 @@ hr {
   text-transform: uppercase;
 }
 .text1 {
-  width: 27%;
+  width: 513px;
   text-align: justify;
   position: absolute;
-  left: 38%;
-  top: 11%;
+  left: 725px;
+  top: 110px;
 }
 .article {
   position: absolute;
-  left: 27%;
-  top: 49%;
+  left: 510px;
+  top: 450px;
   font-size: 30px;
   font-weight: 750;
 }
 .ap {
-  width: 144%;
+  width: 370px;
   position: absolute;
   padding: 8px;
-  top: 100%;
-  left: 130%;
+  top: 50px;
+  left: 340px;
   border-style: solid;
   border-width: 2px;
   border-color: rgb(228, 228, 228);
 }
 .list {
-  width: 22%;
-  top: 53%;
+  width: 445px;
+  top: 485px;
   position: absolute;
-  left: 19%;
+  left: 360px;
 }
 li {
   list-style-type: none;
@@ -67,8 +67,8 @@ li {
   font-family: "Segoe UI", sans-serif;
   position: absolute;
   display: inline-block;
-  top: 107%;
-  left: 29%;
+  top: 1000px;
+  left: 540px;
   font-size: 20px;
   text-align: center;
   border-collapse: separate;
@@ -93,18 +93,34 @@ td {
   font-family: "Segoe UI", sans-serif;
   position: absolute;
   display: inline-block;
-  top: 100%;
-  left: 38%;
+  top: 930px;
+  left: 730px;
   font-size: 22px;
   font-weight: 661;
 }
 .form {
-  top: 135%;
-  left: 21%;
+  top: 1210px;
+  left: 400px;
   position: absolute;
   font-size: small;
   width: max-content;
 }
 input {
   position: relative;
+}
+.buttons
+{
+  display: grid;
+  width: 50px;
+  grid-template-columns: repeat(2, 77px);
+}
+.buttons__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 2px solid rgb(0, 0, 0);
+}
+.buttons__column-para
+{
+  border: 2px solid light ;
 }
